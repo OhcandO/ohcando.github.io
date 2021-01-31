@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>정환's 포트폴리오</title>
+
+    <!-- 한글 NOTO Sans -->
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/earlyaccess/notosanskr.css">
+
+    <!-- JqueryUI css -->
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.theme.min.css">
+
+    <!-- Fullpage CSS  -->
+    <link rel="stylesheet" href="css/jquery.fullpage.min.css">
+
+
+    <!-- 마우스휠 마크  -->
+    <link rel="stylesheet" href="css/mouseScroll.css">
+
+    <!-- 개인 css 설정 -->
+    <link rel="stylesheet" href="css/jhIndex_ver3.css">
+
+    <!-- Font Awesome 웹 아이콘 셋 -->
+    <script src="https://kit.fontawesome.com/44f5452784.js" crossorigin="anonymous"></script>
+
+    <!-- JQuery -->
+    <script src="javascript/jQuery(2.1.1).js"></script>
+    <script src="javascript/wow.min(1.1.2).js"></script>
+    <script src="javascript/jquery-ui.min.js"></script>
+
+    <!-- Scroll Overfolow.js -->
+    <script src="javascript/scrolloverflow.min.js"></script>
+
+    <!-- FullPage . js -->
+    <script src="javascript/jquery.fullpage.min.js"></script>
+
+    <!-- 내 자바스크립트 -->
+    <script src="javascript/jhIndex_ver3.js"></script>
+
+</head>
+
+<body>
+
+    <!-- 마우스 휠 마크 등장 -->
+    <div class="scrollMark">
+        <div class="cont-mouse">
+            <div class="mouse">
+                <div class="flechas">
+                    <div class="arriba">
+                        <div class="fl"></div>
+                        <div class="fl"></div>
+                    </div>
+                    <div class="arriba">
+                        <div class="flb"></div>
+                        <div class="flb"></div>
+                    </div>
+                </div>
+                <div class="rcont">
+                    <div class="ruedita"></div>
+                </div>
+            </div>
+            <p> 마우스휠 <br> 이동 </p>
+            <!-- <p>for more</p> -->
+        </div>
+    </div>
+    <!-- 마우스 휠 마크 퇴장 -->
+
+    <div class="hover-image" id="himg2">
+        <img src="Media/image/paper_JTICE_chlorine_dioxide~.jpg" class="paper_img" alt="">
+    </div>
+
+    <div class="hover-image" id="himg1">
+        <img src="Media/image/paper_ESPR_per capita~.JPG" class="paper_img" alt="">
+    </div>
+
+    <!-- full page 시작 -->
+    <div id="fullpage">
+        <!-- section 1 start -->
+
+        <div class="section firstpage">
+            <div class="head_content">
+                <p id="myName">오정환</p>
+                <span id="holder"></span>
+                <div class="container">
+                    <p>저는
+                        <span class="typed-text"></span>
+                        <span class="cursor">&nbsp;</span>
+                        에 관심이 있습니다
+                    </p>
+                </div>
+            </div>
+
+            <!-- 아래 화살표 -->
+            <i class="fas fa-chevron-down fa-3x bounce" id="moveDown"></i>
+
+        </div>
+        <!-- section 1 end -->
+
+
+        <!-- section 2 start -->
+
+        <div class="section aboutMe" data-anchor="aboutme">
+            <div class="aboutme-area">
+                <div class="aboutme-left">
+                    <!-- 내 소개 영역 -->
+                    <div id="aboutme-left-upper" class="shadow-top-z-3">
+                        <h3 class="aboutme-left-upper-title">오정환 | Junghwan Oh</h3>
+                        <div id="myprofile">
+                            <img src="Media/image/myProfile_fix.png" class="photo_me"
+                                alt="A Korean guy smiling with Ethiopian kids">
+                        </div>
+
+                        <div id="introduction">
+                            <p> <strong>물과 사람, 사람과 물</strong><br>
+                                물 연구원으로 에티오피아에서 홛동했습니다. <br> 현지에서 숫자 뒤의 사람을 발견했습니다.
+                                사람을 생각하는 공학자를 꿈꾸고 있습니다.</p>
+                            <p> <strong> 물에 IT 더하기 </strong><br>
+                                치수에 IT 기술이 많이 도입되고 있습니다. <br> 정보통신 기술에 관심갖고 배우며 익히고 있습니다. 물
+                                관리 시대에 맞는 인재가 되고자 합니다.</p>
+                        </div>
+                    </div>
+
+                    <!-- 능숙도 그래프 -->
+
+                    <div id="aboutme-left-lower" class="shadow-top-z-3">
+                        <h3 class="aboutme-left-upper-title">숙련도 일람 <sub
+                                style="font-weight: 200; font-size: small; color: slategrey;">상세 설명은 마우스 툴팁을
+                                참고해주세요</sub></h3>
+                        <div class="wow fadeInUp container-skillbar" data-wow-delay="0.2s">
+                            <div class="skillbars_left">
+                                <div class="a-skillbar-area">
+                                    <i class="fas fa-tint fa-2x fa-fw skillicon" z-position="3"></i>
+                                    <div class="skillbar clearfix "
+                                        title="환경공학 중 수처리와 관련된 성취도를 나타냅니다. 대학원 과정 학업성취도와 상수도/해수담수화 부문 연구 성취도가 고려되었습니다."
+                                        data-percent="85%">
+                                        <div class="skillbar-title" style="background: #DD1E2F;"><span>수환경공학</span>
+                                        </div>
+                                        <div class="skillbar-bar" style="background: #DD1E2F;"></div>
+                                        <div class="skill-bar-percent">85%</div>
+                                    </div>
+                                </div>
+                                <!-- End Skill Bar -->
+                                <div class="a-skillbar-area">
+                                    <i class="fas fa-laptop-code fa-2x fa-fw skillicon"></i>
+                                    <div class="skillbar clearfix " data-percent="70%"
+                                        title="Java 와 SQL(Oracle) 기능 활용 정도를 나타냅니다. 해당 언어들을 활용한 프로젝트를 진행했으나 아직 배울 점이 많습니다. 데이터 구조와 버그를 파악하는 데 흥미를 느끼는 점이 고려되었습니다.">
+                                        <div class="skillbar-title" style="background: #EBB035;"><span>Java/SQL</span>
+                                        </div>
+                                        <div class="skillbar-bar" style="background: #EBB035;"></div>
+                                        <div class="skill-bar-percent">70%</div>
+                                    </div>
+                                </div>
+                                <!-- End Skill Bar -->
+
+                                <div class="a-skillbar-area">
+                                    <i class="fas fa-chart-bar fa-2x fa-fw skillicon"></i>
+                                    <div class="skillbar clearfix " data-percent="80%"
+                                        title="통계 검정 등 통계학 배경지식과 소프트웨어 활용 등 통계 분석에 관련한 성취도를 나타냅니다. 통계검정 방법을 활용해 논문을 투고한 것과 통계 관련 강의를 오랜 시간 수강한 것을 고려했습니다.">
+                                        <div class="skillbar-title" style="background: #218559;"><span>통계 처리</span>
+                                        </div>
+                                        <div class="skillbar-bar" style="background: #218559;"></div>
+                                        <div class="skill-bar-percent">80%</div>
+                                    </div>
+                                </div> <!-- End Skill Bar -->
+                            </div>
+                            <div class="skillbars_right">
+                                <div class="a-skillbar-area">
+                                    <i class="fas fa-globe-americas fa-2x fa-fw skillicon"></i>
+                                    <div class="skillbar clearfix " data-percent="85%"
+                                        title="외국어 활용 정도를 나타냅니다. TOEFL 공부를 시작으로 국제 저널에 논문 투고한 것, 해외 학회 발표 경험, 현지 활동 중 다국적 외국인들과 의사소통한 것 그리고 영어 문서 작성 및 보고회 등을 수행한 것을 고려했습니다.">
+                                        <div class="skillbar-title" style="background: #6840D4;"><span>외국어(영어)</span>
+                                        </div>
+                                        <div class="skillbar-bar" style="background: #6840D4;"></div>
+                                        <div class="skill-bar-percent">85%</div>
+                                    </div>
+                                </div> <!-- End Skill Bar -->
+
+                                <div class="a-skillbar-area">
+                                    <i class="fas fa-chalkboard-teacher fa-2x fa-fw skillicon"></i>
+                                    <div class="skillbar clearfix " data-percent="90%"
+                                        title="워드프로세서 기능을 십분 활용하여 간결 명확한 보고서를 작성하는 능력과 다수 앞에서 발표하는 능력을 나타냅니다. 다수의 국문, 영문 보고서 작성 경험과 발표 경험이 고려되었습니다.">
+                                        <div class="skillbar-title" style="background: #06A2CB;"><span>보고, 발표능력</span>
+                                        </div>
+                                        <div class="skillbar-bar" style="background: #06A2CB;"></div>
+                                        <div class="skill-bar-percent">90%</div>
+                                    </div>
+                                </div> <!-- End Skill Bar -->
+
+                                <div class="a-skillbar-area">
+                                    <i class="fas fa-people-carry fa-2x fa-fw skillicon"></i>
+                                    <div class="skillbar clearfix " data-percent="90%"
+                                        title="공통된 목표를 향해 팀원들과 협력하는 능력을 나타냅니다. 교환학생 경험 등 다양한 가치관의 사람들과 어울릴 기회가 많았고, 경청/설득하는 것에 흥미 느끼는 점이 고려되었습니다.">
+                                        <div class="skillbar-title" style="background: #AB4DD2;"><span>팀워크</span></div>
+                                        <div class="skillbar-bar" style="background: #AB4DD2;"></div>
+                                        <div class="skill-bar-percent">90%</div>
+                                    </div>
+                                </div> <!-- End Skill Bar -->
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- 능숙도 그래프 -->
+                </div>
+                <div class="aboutme-right">
+
+                    <div class="career_area shadow shadow-top-z-3">
+                        <span class="career_area_header"><i class="fas fa-pen-nib"></i> 학업 영역 </span>
+                        <ul>
+                            <li><em class="date">2021.02</em>NCS 'R을 활용한 빅데이터플랫폼 구축' 과정 수료 </li>
+                            <li><em class="date">2016.02</em>MSc. in Environmental Eng., Sungkyunkwan Univ., Korea</li>
+                            <li><em class="date">2016.02</em>BSc. in Mechanical Eng., Sungkyunkwan Univ., Korea</li>
+
+                        </ul>
+                        <!-- <div class="shadow shadow-bottom-z-3"></div> -->
+                        <!-- <div class="shadow shadow-top-z-3"></div> -->
+                    </div>
+
+                    <div class="career_area shadow shadow-top-z-3">
+                        <span class="career_area_header"><i class="far fa-circle"></i> 경 력 </span>
+                        <ul>
+                            <li><em class="date">2019.07 (2년)</em>한국연구재단, 'WFK-과학기술인파견사업-에티오피아 물/농업 적정기술센터 사업'
+                                <strong>수자원연구원</strong>
+                            </li>
+                            <li><em class="date">2014.12 (2년)</em>국토교통과학기술진흥원 '정삼투-역삼투 메카니즘 규명 및 수질제어 운영엔지니어링 고도화
+                                기술'<strong>역삼투 부문 연구원</strong></li>
+                            <li><em class="date">2014.02 (1년)</em>한국토지주택공사 '개발지구 생활폐기물 발생량 실측 및 원단위 수립용역'<strong>총괄
+                                    연구원</strong></li>
+                            <li><em class="date">2014.02 (2년)</em>성균관대 지속가능수처리연구실 <strong>연구/실험 조교 (RA)</strong></li>
+                        </ul>
+                        <!-- <div class="shadow shadow-bottom-z-3"></div>
+                        <div class="shadow shadow-top-z-3"></div> -->
+                    </div>
+
+                    <div class="career_area shadow shadow-top-z-3">
+                        <span class="career_area_header"><i class="fas fa-circle-notch"></i> 증명 </span>
+                        <ul>
+                            <li><em class="date">2020.11</em>국가공인 SQL 개발자</li>
+                            <li><em class="date">2020.12</em>수질환경기사</li>
+                            <li><em class="date">2020.01</em>TOEFL (95)</li>
+                            <li><em class="date">2016</em>
+                                <span class="hover-title" id="httl1">
+                                    <strong style="color: blue; text-decoration: underline;">Paper (SCI)</strong>A
+                                    comparative study on ~
+                                </span>
+                            </li>
+                            <!--  per capita waste generation according to a waste collecting system in Korea -->
+                            <li><em class="date">2016</em>
+                                <span class="hover-title" id="httl2">
+                                    <strong style="color: blue; text-decoration: underline;">Paper
+                                        (SCIE)</strong>Application of chlorine dioxide
+                                    (ClO<sub>2</sub>) ~
+                                </span>
+                            </li>
+                            <!-- to reverse osmosis (RO) membrane for seawater desalination -->
+                        </ul>
+                    </div>
+
+                    <div class="career_area shadow shadow-top-z-3">
+                        <span class="career_area_header"><i class="fas fa-cog"></i> 활용 기술 </span>
+                        <ul>
+                            <li><em class="date">Prog.</em>JAVA, SQL(Oracle)</li>
+                            <li><em class="date">Web</em>HTML5 CSS3, Javascript, JQuery, JSP</li>
+                            <li><em class="date">Software</em>SPSS (통계), Autodesk-Inventor (3D 모델링) AutoCad (도면 작성)</li>
+                            <li><em class="date">else.</em>문서작성(한글, MS-Word/Powerpoint/Excel)-고급, 영상처리(VEGAS))</li>
+                        </ul>
+                        <!-- <div class="shadow shadow-bottom-z-3"></div>
+                        <div class="shadow shadow-top-z-3"></div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- section 2 end -->
+
+        <!-- section 3 strat -->
+        <div class="section myProjects" data-anchor="myprojects">
+            <!-- section about my extra works -->
+
+            <!-- 1. 캐시보트 -->
+            <div class="slide">
+                <figure class="project_figure">
+                    <img src="Media/image/project1_cashvote.jpg"
+                        alt="most recent project for aggregating regional opinion on a certain topic which anyone can propose in their region">
+                </figure>
+            </div>
+
+            <!-- 2. 당.나.귀 -->
+            <div class="slide">
+                <figure class="project_figure">
+                    <img src="Media/image/project0.5_Donkey.jpg"
+                        alt="a database design project on a mobile platform for local priavte item auction among the privates">
+                </figure>
+            </div>
+
+            <!-- 3. 본차를 이용한 불소 제거 -->
+            <div class="slide">
+                <figure class="project_figure">
+                    <img src="Media/image/project2_defluoridation.jpg"
+                        alt="a Korea National Research Foundation (NRF) project on sustainable development, conducted in Adama, Ethiopia, especially on defluoridation of water for potable water source in a model village">
+                </figure>
+            </div>
+
+            <!-- 4. 적정기술1 : 태양광온수장치 -->
+            <div class="slide">
+                <figure class="project_figure">
+                    <img src="Media/image/project5_solar heater.jpg" alt="">
+                </figure>
+            </div>
+
+            <!-- 5. 적정기술2 : 태양열 건조장치 -->
+            <div class="slide">
+                <figure class="project_figure">
+                    <img src="Media/image/project6_solar dryer.jpg" alt="">
+                </figure>
+            </div>
+
+            <!-- 6. 석사연구1 역삼투 -->
+            <div class="slide">
+                <figure class="project_figure">
+                    <img src="Media/image/project3_disinfection on RO.jpg"
+                        alt="a plant scale project on producing clean water from seawater by using the technology of reverse osmosis combined with forward osmosis that expected to have better energy efficiency than sole reverse osmosis">
+                </figure>
+            </div>
+
+            <!-- 7. 석사연구2 원단위 산정 연구 -->
+            <div class="slide">
+                <figure class="project_figure">
+                    <img src="Media/image/project4_per capita waste comparison.jpg"
+                        alt="a quarterly periodical investigation on per capita waste generation in two cities with differenct gabage collecting system - traditional truck based, underground vacuum conveyer system -, who showed several meaningful significant differences.">
+                </figure>
+            </div>
+
+            <!-- 아래 화살표 -->
+            <i class="fas fa-chevron-down fa-3x bounce" id="moveDown"></i>
+
+        </div>
+        <!-- section 3 end -->
+
+        <!-- section 4 strat -->
+        <div class="section myExtra  fp-auto-height" data-anchor="myextra" id="timeline_section">
+
+            <b style="color: indigo; font-size: 3vw;">발 자 취</b> <br>
+            사람을 생각하는 물 연구원이 되기까지 걸어온 길.
+
+            <div class="line-container">
+                <ul class="timeline">
+                    <li>
+                        <h3>2011</h3>
+                        <p>베트남 해외봉사 <br>
+                            사람을 돕는 방법에 대해 생각. 수재민이 식수난에 처한 것을 보고 물에 관심 갖기 시작</p>
+                        <img src="Media/image/extra_Vietnam volunteer working.jpg"
+                            alt="a highlighted guy among group of people (tutor) holding 'collage picture' which is done by vietnamese children (tutee)"><br><br>
+
+                    </li>
+                    <li>
+                        <h3>2013 상반기</h3>
+                        <p> 교환학생 (6개월, Finland) <br> 실생활 영어 활용 능력 대폭 향상. 타 문화 감수성 및 의사소통 능력 향상 </p>
+                    </li>
+                    <li>
+                        <h3>2013 하반기</h3>
+                        <p> 기술로 실현하는 원조에 관심. ODA 관련 학회, 과학기술인총연합회 세미나 등 다수 참관. 적정기술(Appropriate Tech.) 에 관심 </p>
+                    </li>
+                    <li>
+                        <h3>2014 ~ 2016</h3>
+                        <p>기계공학부 졸업과 동시에 수자원 전문대학원 진학. <br> 역삼투 담수화 연구 영역 중 '소독'에 특히 집중. 식수 생산과 하수 처리 폭 넓게 접함. 국제학회 발표
+                            참여, 논문 게재 등 학술적 내실 다짐. </p>
+                        <img src="Media/image/extra_master_deg_selfie.jpg" alt="">
+                    </li>
+                    <li>
+                        <h3>2014 여름</h3>
+                        <p>환경통계학 과정 수강. <br> 환경(공학)부문에서 대단위 통계검정 방법을 적용해 의미를 발굴하는 것에 흥미.</p>
+                    </li>
+                    <li>
+                        <h3>2017</h3>
+                        <p>연구재단 WFK-과학기술인파견사업 참여. <br> 에티오피아 물/농업 적정기술센터 연구원 활동 시작(2년). 돕는 것에 대한 사명감 재 확인.</p>
+                        <!-- <video loop muted data-autoplay>
+                            <source src="Media/video/iTCSD 홍보 영상.mp4">
+                        </video> -->
+                        <iframe src="https://www.youtube.com/embed/OY04Qgd31_w?mute=1&autoplay=1&amp;loop=1;playlist=OY04Qgd31_w&controls=0"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </li>
+                    <li>
+                        <h3>2017~2018</h3>
+                        <p>Adama 시 고아원 정기 봉사활동. <br>
+                            주 2시간, 음악 및 미술 교육 봉사. 연말 행사 개최 등</p>
+                        <img src="Media/image/extra_Ethiopia_orphanage_volunteer.jpg" alt="">
+                    </li>
+                    <li>
+                        <h3>2018</h3>
+                        <p>LG 희망마을 개선활동에 참여. <br> 공용 식수라인 정비, 마을 학교 배선 작업 등 수행. 인프라의 중요성 실감. </p>
+                        <img src="Media/image/extra_LGHopeVil._water_tap_rehabilitate.jpg" alt="">
+                        <!-- <video loop muted data-autoplay>
+                            <source src="Media/video/extra_LGHope vil. water tap rehabilitate (final).mp4">
+                        </video> -->
+                        <iframe src="https://www.youtube.com/embed/cmz0FK4W4g8?mute=1&autoplay=1&amp;loop=1;playlist=cmz0FK4W4g8&controls=0"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </li>
+                    <li>
+                        <h3>2018 말 2019 초</h3>
+                        <p>Stakeholders' meeting 1, 2 개최. <br> 건설적인 원조의 형태 고민. 시설물 설치에서 끝나는 원조가 아니라, 정보 제공과 교육까지의
+                            통섭적 접근이 필요함을 체감</p>
+                        <img src="Media/image/extra_stakeholders_meeting.jpg" alt="">
+                    </li>
+                    <li>
+                        <h3>2019</h3>
+                        <p>거주지 인근 편모 다자녀 취약층 방문. <br>
+                            아이들 사진 촬영 후 인화-앨범제작 전달, 아동 의류, 식재료 등 사비로 구매 후 전달. 3 가족 지원</p>
+                        <img src="Media/image/extra_Ethiopia_familiy_photo_proj.jpg" alt="">
+                    </li>
+
+                    <li>
+                        <h3>2020</h3>
+                        <p>국비 교육과정으로 프로그래밍 언어 학습. <br> 후일 빅데이터 핸들링을 예상하고, 기초적인 데이터 처리와 프로그래밍 언어 활용 능력 습득하고자 함. <br>
+                            개인 웹 페이지 프로젝트, JAVA + Oracle 기반 APP 프로젝트, DB 설계 등 수행
+                        </p>
+                    </li>
+                    <li>
+                        <h3>2021 ~ </h3>
+                        <p>수자원과 사람과 IT 의 연결고리 찾으려 고심하고 있습니다.</p>
+                    </li>
+                </ul>
+            </div>
+
+
+
+        </div>
+
+        <!-- section 4 end -->
+
+        <!-- section 5:the last strat -->
+        <div class="section contactMe fp-auto-height" data-anchor="contactme">
+            <div class="footer">
+                <!-- 비디오비디오 -->
+                <div class="videoWrapper">
+
+                    <!-- <video class="myVideo" muted loop data-autoplay>
+                        <source src="Media/video/fieldWork and electric.mp4" type="video/mp4">
+                    </video> -->
+                    <iframe class="myVideo"
+                        src="https://www.youtube.com/embed/CaD78VHVieE?mute=1&autoplay=1&amp;loop=1;playlist=CaD78VHVieE&controls=0"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+
+
+                <!-- 비디오비디오 -->
+
+                <!-- Name Card START -->
+
+
+                <div class="cards">
+
+                    <div class="contact">Contact Me</div>
+                    <div class="contact-form">
+                        <a href="#" class="close"><i class="fa fa-times"></i></a>
+                        <form>
+                            <div class="control"><input type="text" id="name" /><label for="name">Your Name</label>
+                            </div>
+                            <div class="control"><input type="text" id="email" /><label for="email">Email
+                                    Address</label></div>
+                            <div class="control"><input type="text" id="url" /><label for="url">Website</label></div>
+                            <div class="control"><textarea name="" id="message"></textarea><label
+                                    for="message">Message</label>
+                            </div>
+                            <div class="control submit"><input type="submit" id="submitting" /></div>
+                        </form>
+                    </div>
+
+                    <div class="card active" id="overview">
+                        <a class="card-toggle"><i class="fa fa-arrow-circle-left"></i></a>
+                        <div class="card-content">
+                            <div class="row">
+                                <div class="left col">
+                                    <h2>| <strong>연락처</strong></h2>
+
+                                    <p>언어를 선택하세요 <br />
+                                        <hr> <em>배경 영상을 보려면 드래그 하세요</em>
+                                    </p>
+
+                                </div>
+                                <div class="right col">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="card" id="lang_korean">
+                        <a class="card-toggle"><img class="flag" src="Media/icon/semisqr_south-korea.png" title="한국어"
+                                alt=""></a>
+                        <div class="card-content">
+                            <div class="row">
+                                <div class="left col">
+                                    <h2><strong> 오 </strong> 정 환 </h2>
+                                    <br>
+                                    <i class="fas fa-map-marker-alt fa-fw"></i> 대전광역시 유성구 <br>
+                                    <span class="toClip_email" title="클릭시 이메일 주소를 클립보드로 복사합니다."><i
+                                            class="fas fa-envelope fa-fw"></i> oh.can.do88@gmail.com</span> <br>
+                                    <span class="toClip_mobile" title="클릭시 전화번호를 클립보드로 복사합니다."><i
+                                            class="fas fa-phone fa-fw"></i> +82 000-0000-0000 </span><br>
+
+                                </div>
+                                <div class="right col"><img src="Media/image/myProfile_fix.png" alt="" /></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card" id="lang_english">
+                        <a class="card-toggle"><img class="flag" src="Media/icon/semisqr_united-states.png" alt=""
+                                title="ENGLISH"></a>
+                        <div class="card-content">
+                            <div class="row">
+                                <div class="left col">
+                                    <h2>Jung Hwan <strong>OH</strong></h2>
+                                    <br>
+                                    <i class="fas fa-map-marker-alt fa-fw"></i> Daejeon, Korea <br>
+                                    <span class="toClip_email" title="Click to copy E-MAIL to clipboard"><i
+                                            class="fas fa-envelope fa-fw"></i> oh.can.do88@gmail.com</span> <br>
+                                    <span class="toClip_mobile" title="Click to copy Mobile to clipboard"><i
+                                            class="fas fa-phone fa-fw"></i> +82 000-0000-0000 </span><br>
+
+                                </div>
+                                <div class="right col"><img src="Media/image/myProfile_fix.png" alt="" /></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" id="lang_amharic">
+                        <a class="card-toggle"><img class="flag" src="Media/icon/semisqr_ethiopia.png" alt=""
+                                title="Ethiopia-Amharic"></a>
+                        <div class="card-content">
+                            <div class="row">
+                                <div class="left col">
+                                    <h2> ኦ <strong>ብርሃን ጠረጴዛ</strong></h2>
+                                    <br>
+                                    <i class="fas fa-map-marker-alt fa-fw"></i> Daejeon, Korea <br>
+                                    <span class="toClip_email" title="Click to copy E-MAIL to clipboard."><i
+                                            class="fas fa-envelope fa-fw"></i> oh.can.do88@gmail.com</span> <br>
+                                    <span class="toClip_mobile" title="Click to copy Mobile to clipboard."><i
+                                            class="fas fa-phone fa-fw"></i> +82 000-0000-0000 </span><br>
+
+                                </div>
+                                <div class="right col"><img src="Media/image/myProfile_fix.png" alt="" /></div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Name Card END -->
+
+            </div>
+        </div>
+        <!-- section 5 end -->
+
+    </div>
+    <!--풀페이지 끝  -->
+
+    <!-- 맨 첫 페이지 타이핑 이펙트 -->
+    <script src="javascript/jhTyping.js"></script>
+
+    <!-- 내 자바스크립트 -->
+    <!-- <script src="javascript/jhIndex_ver3.js"></script> -->
+
+</body>
+
+</html>
